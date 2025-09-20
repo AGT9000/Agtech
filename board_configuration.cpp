@@ -46,14 +46,14 @@ void setCustomVbatt() {
 
 }
 
-void setInjectorPins() {
+static void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::E0;
 	engineConfiguration->injectionPins[1] = Gpio::E6;
 	engineConfiguration->injectionPins[2] = Gpio::D9;
 	engineConfiguration->injectionPins[3] = Gpio::E3;
 }
 
-void setIgnitionPins() {
+static void setIgnitionPins() {
 	engineConfiguration->ignitionPins[0] = Gpio::A8;
 	engineConfiguration->ignitionPins[1] = Gpio::C9;
 	engineConfiguration->ignitionPins[2] = Gpio::A10;
@@ -75,6 +75,7 @@ void setIgnitionPins() {
 
 
 void setup_custom_board_overrides() {
-	custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
-	
+	// custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
+	setIgnitionPins();
+	setInjectorPins();
 }
