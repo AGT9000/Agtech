@@ -5,5 +5,7 @@
 
 Gpio GENERATED_OUTPUTS = {
 	Gpio::B14, // B14 Output
+	Gpio::D12, // Low Side (D12)
 // "B14 Output",
+// "Low Side (D12)",
 }
