@@ -43,7 +43,7 @@ void setCustomVbatt() {
 	engineConfiguration->vbattAdcChannel = EFI_ADC_11;
 
 }
-/*
+
 static void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::E0;
 	engineConfiguration->injectionPins[1] = Gpio::E6;
@@ -70,8 +70,10 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->triggerInputPins[0] = Gpio::B1;
 	engineConfiguration->triggerInputPins[1] = Gpio::A6;
 }
-*/
+
 
 void setup_custom_board_overrides() {
 	custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
+	setIgnitionPins();
+	setInjectorPins();
 }
