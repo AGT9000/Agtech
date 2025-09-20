@@ -79,6 +79,18 @@ pins:
   - id: [E4, E4]
     class: [switch_inputs, event_inputs]
     ts_name: VR/Hall 3 (E4)
-  - id: D12
+
+  - id: D7
     class: outputs
-    ts_name: Low Side (D12)
+    ts_name: Low Side 1
+
+  - id: D9
+    class: outputs
+    ts_name: Low Side 2
+
+  - id: D10
+    class: outputs
+    ts_name: Low Side 3
+    
+
+
