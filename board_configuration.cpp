@@ -12,12 +12,11 @@ Gpio getRunningLedPin() {
 Gpio getWarningLedPin() {
 	return Gpio::Unassigned;
 }
-
-static void customBoardDefaultConfiguration() {
+void customBoardDefaultConfiguration() {
 	engineConfiguration->vbattDividerCoeff = 6.5f;
 	engineConfiguration->vbattAdcChannel = EFI_ADC_11;
-	// setIgnitionPins();
-	// setInjectorPins();
+	setIgnitionPins();
+	setInjectorPins();
 }
 
 static Gpio OUTPUTS[] = {
@@ -76,6 +75,6 @@ static void setIgnitionPins() {
 
 void setup_custom_board_overrides() {
 	// custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
-	setIgnitionPins();
-	setInjectorPins();
+	// setIgnitionPins();
+	// setInjectorPins();
 }
