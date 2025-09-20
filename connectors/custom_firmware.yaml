@@ -79,6 +79,6 @@ pins:
   - id: [E4, E4]
     class: [switch_inputs, event_inputs]
     ts_name: VR/Hall 3 (E4)
-  - id: JNJ1
+  - id: D12
     class: outputs
-    ts_name: Injector 1 (D12)
+    ts_name: Low Side (D12)
