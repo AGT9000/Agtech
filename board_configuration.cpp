@@ -53,12 +53,12 @@ void setInjectorPins() {
 	engineConfiguration->injectionPins[3] = Gpio::E3;
 }
 
-// static void setIgnitionPins() {
-// 	engineConfiguration->ignitionPins[0] = Gpio::A8;
-// 	engineConfiguration->ignitionPins[1] = Gpio::C9;
-// 	engineConfiguration->ignitionPins[2] = Gpio::A10;
-// 	engineConfiguration->ignitionPins[3] = Gpio::C8;
-// }
+static void setIgnitionPins() {
+	engineConfiguration->ignitionPins[0] = Gpio::A8;
+	engineConfiguration->ignitionPins[1] = Gpio::C9;
+	engineConfiguration->ignitionPins[2] = Gpio::A10;
+	engineConfiguration->ignitionPins[3] = Gpio::C8;
+}
 
 // void setBoardDefaultConfiguration() {
 // 	engineConfiguration->map.sensor.hwChannel = EFI_ADC_0;
