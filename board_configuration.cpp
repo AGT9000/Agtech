@@ -4,17 +4,17 @@
 
 
 static void setInjectorPins() {
-	engineConfiguration->injectionPins[0] = Gpio::E0;
-	engineConfiguration->injectionPins[1] = Gpio::E6;
-	engineConfiguration->injectionPins[2] = Gpio::D9;
-	engineConfiguration->injectionPins[3] = Gpio::E3;
+	engineConfiguration->injectionPins[0] = Gpio::AGTECH_LS_1;
+	engineConfiguration->injectionPins[1] = Gpio::AGTECH_LS_2;
+	engineConfiguration->injectionPins[2] = Gpio::AGTECH_LS_3;
+	engineConfiguration->injectionPins[3] = Gpio::AGTECH_LS_4;
 }
 
 static void setIgnitionPins() {
-	engineConfiguration->ignitionPins[0] = Gpio::A8;
-	engineConfiguration->ignitionPins[1] = Gpio::C9;
-	engineConfiguration->ignitionPins[2] = Gpio::A10;
-	engineConfiguration->ignitionPins[3] = Gpio::C8;
+	engineConfiguration->ignitionPins[0] = Gpio::AGTECH_IGN_2;
+	engineConfiguration->ignitionPins[1] = Gpio::AGTECH_IGN_3;
+	engineConfiguration->ignitionPins[2] = Gpio::AGTECH_IGN_3;
+	engineConfiguration->ignitionPins[3] = Gpio::AGTECH_IGN_4;
 }
 
 static const brain_pin_e injPins[] = {
