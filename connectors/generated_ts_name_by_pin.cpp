@@ -14,7 +14,6 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D3: return "Ignition 2";
 		case Gpio::D4: return "Ignition 1";
 		case Gpio::D7: return "Low Side 1";
-		case Gpio::D9: return "Low Side 2";
 		case Gpio::E2: return "VR/Hall 1 (E2)";
 		case Gpio::E3: return "VR/Hall 2 (E3)";
 		case Gpio::E4: return "VR/Hall 3 (E4)";
@@ -24,6 +23,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::G13: return "Low Side 6";
 		case Gpio::G14: return "Fuel Pump";
 		case Gpio::G8: return "Ignition 6";
+		case Gpio::G9: return "Low Side 2";
 		default: return nullptr;
 	}
 	return nullptr;
