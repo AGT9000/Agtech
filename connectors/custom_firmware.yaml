@@ -1,4 +1,4 @@
-meta: ../../../M144_meta.h
+meta: ../../../agtech_meta.h
 
 pins:
   - id: B14
@@ -86,7 +86,7 @@ pins:
     class: outputs
     ts_name: Low Side 1
 
-  - id: D9
+  - meta: AGTECH_LS_2
     class: outputs
     ts_name: Low Side 2
 
