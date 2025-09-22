@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "board_overrides.h"
+#include "agtech_meta.h"
 
 
 static void setInjectorPins() {
@@ -15,6 +16,21 @@ static void setIgnitionPins() {
 	engineConfiguration->ignitionPins[2] = Gpio::A10;
 	engineConfiguration->ignitionPins[3] = Gpio::C8;
 }
+
+static const brain_pin_e injPins[] = {
+    Gpio::AGTECH_LS_1,
+	Gpio::AGTECH_LS_2,
+	Gpio::AGTECH_LS_3,
+	Gpio::AGTECH_LS_4,
+	Gpio::AGTECH_LS_5,
+	Gpio::AGTECH_LS_6,
+	Gpio::AGTECH_LS_7,
+	Gpio::AGTECH_LS_8,
+	Gpio::AGTECH_LS_9,
+	Gpio::AGTECH_LS_10,
+	Gpio::AGTECH_LS_11,
+	Gpio::AGTECH_LS_12
+};
 
 Gpio getCommsLedPin() {
 	return Gpio::D15;
