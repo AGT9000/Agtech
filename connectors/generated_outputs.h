@@ -17,6 +17,8 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::C8, // Ignition 4
 	Gpio::C7, // Ignition 5
 	Gpio::G8, // Ignition 6
+	Gpio::G14, // Fuel Pump
+	Gpio::B4, // Fan 1
 // "B14 Output",
 // "Low Side 1",
 // "Low Side 2",
@@ -30,4 +32,6 @@ Gpio GENERATED_OUTPUTS = {
 // "Ignition 4",
 // "Ignition 5",
 // "Ignition 6",
+// "Fuel Pump",
+// "Fan 1",
 }
