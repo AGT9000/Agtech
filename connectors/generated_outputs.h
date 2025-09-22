@@ -7,9 +7,27 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::B14, // B14 Output
 	Gpio::D7, // Low Side 1
 	Gpio::D9, // Low Side 2
-	Gpio::D10, // Low Side 3
+	Gpio::G10, // Low Side 3
+	Gpio::G11, // Low Side 4
+	Gpio::G12, // Low Side 5
+	Gpio::G13, // Low Side 6
+	Gpio::D4, // Ignition 1
+	Gpio::D3, // Ignition 2
+	Gpio::C9, // Ignition 3
+	Gpio::C8, // Ignition 4
+	Gpio::C7, // Ignition 5
+	Gpio::G8, // Ignition 6
 // "B14 Output",
 // "Low Side 1",
 // "Low Side 2",
 // "Low Side 3",
+// "Low Side 4",
+// "Low Side 5",
+// "Low Side 6",
+// "Ignition 1",
+// "Ignition 2",
+// "Ignition 3",
+// "Ignition 4",
+// "Ignition 5",
+// "Ignition 6",
 }
