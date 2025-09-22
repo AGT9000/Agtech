@@ -128,6 +128,14 @@ pins:
     class: outputs
     ts_name: Ignition 6
 
+  - id: G14
+    class: outputs
+    ts_name: Fuel Pump
+  
+  - id: B4
+    class: outputs
+    ts_name: Fan 1
+
   
 
 
