@@ -88,9 +88,46 @@ pins:
     class: outputs
     ts_name: Low Side 2
 
-  - id: D10
+  - id: G10
     class: outputs
     ts_name: Low Side 3
-    
+
+  - id: G11
+    class: outputs
+    ts_name: Low Side 4
+
+  - id: G12
+    class: outputs
+    ts_name: Low Side 5
+
+  - id: G13
+    class: outputs
+    ts_name: Low Side 6 
+  
+  - id: D4 
+    class: outputs
+    ts_name: Ignition 1
+
+  - id: D3
+    class: outputs
+    ts_name: Ignition 2
+
+  - id: C9
+    class: outputs
+    ts_name: Ignition 3
+
+  - id: C8
+    class: outputs
+    ts_name: Ignition 4
+
+  - id: C7
+    class: outputs
+    ts_name: Ignition 5
+
+  - id: G8
+    class: outputs
+    ts_name: Ignition 6
+
+  
 
 
