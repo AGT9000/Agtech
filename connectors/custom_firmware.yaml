@@ -1,3 +1,5 @@
+meta: ../../../M144_meta.h
+
 pins:
   - id: B14
     class: outputs
@@ -80,7 +82,7 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: VR/Hall 3 (E4)
 
-  - id: D7
+  - meta: AGTECH_LS_1
     class: outputs
     ts_name: Low Side 1
 
