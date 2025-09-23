@@ -90,7 +90,7 @@ pins:
     class: outputs
     ts_name: Low Side 2
 
-  - id: G10
+  - meta: AGTECH_LS_3
     class: outputs
     ts_name: Low Side 3
 
