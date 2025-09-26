@@ -2077,7 +2077,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.09.25.agtechpro-h7.3420187574"
+#define TS_SIGNATURE "rusEFI main.2025.09.26.agtechpro-h7.3420187574"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
