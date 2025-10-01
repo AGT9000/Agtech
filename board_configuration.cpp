@@ -93,7 +93,8 @@ void setCustomVbatt() {
 
 
 void setup_custom_board_overrides() {
-	custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
-	// setIgnitionPins();
-	// setInjectorPins();
+	//custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
+	 setIgnitionPins();
+	 setInjectorPins();
+	 setCustomVbatt();
 }
