@@ -11,8 +11,8 @@ static void setInjectorPins() {
 }
 
 static void setIgnitionPins() {
-	engineConfiguration->ignitionPins[0] = Gpio::AGTECH_IGN_2;
-	engineConfiguration->ignitionPins[1] = Gpio::AGTECH_IGN_3;
+	engineConfiguration->ignitionPins[0] = Gpio::AGTECH_IGN_1;
+	engineConfiguration->ignitionPins[1] = Gpio::AGTECH_IGN_2;
 	engineConfiguration->ignitionPins[2] = Gpio::AGTECH_IGN_3;
 	engineConfiguration->ignitionPins[3] = Gpio::AGTECH_IGN_4;
 }
