@@ -31,6 +31,14 @@ static const brain_pin_e injPins[] = {
 	Gpio::AGTECH_LS_11,
 	Gpio::AGTECH_LS_12
 };
+static void setCustomVbatt() {
+	// set vbatt_divider 5.835
+	// 33k / 6.8k
+	engineConfiguration->vbattDividerCoeff = 10.2; // 5.835
+
+	engineConfiguration->vbattAdcChannel = EFI_ADC_11;
+
+}
 static void boardConfigOverrides() {
 
 	 setIgnitionPins();
@@ -75,14 +83,7 @@ Gpio* getBoardMetaOutputs() {
     return OUTPUTS;
 }
 
-void setCustomVbatt() {
-	// set vbatt_divider 5.835
-	// 33k / 6.8k
-	engineConfiguration->vbattDividerCoeff = 10.2; // 5.835
 
-	engineConfiguration->vbattAdcChannel = EFI_ADC_11;
-
-}
 
 
 
