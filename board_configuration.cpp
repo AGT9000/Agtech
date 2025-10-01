@@ -31,6 +31,14 @@ static const brain_pin_e injPins[] = {
 	Gpio::AGTECH_LS_11,
 	Gpio::AGTECH_LS_12
 };
+static void boardConfigOverrides() {
+
+	 setIgnitionPins();
+	 setInjectorPins();
+	 setCustomVbatt();
+
+}
+
 
 Gpio getCommsLedPin() {
 	return Gpio::D15;
@@ -93,8 +101,7 @@ void setCustomVbatt() {
 
 
 void setup_custom_board_overrides() {
-	//custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
-	 setIgnitionPins();
-	 setInjectorPins();
-	 setCustomVbatt();
+	custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
+	custom_board_ConfigOverrides =  boardConfigOverrides;
+
 }
