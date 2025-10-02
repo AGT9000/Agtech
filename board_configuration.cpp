@@ -34,9 +34,9 @@ static const brain_pin_e injPins[] = {
 static void setCustomVbatt() {
 	// set vbatt_divider 5.835
 	// 33k / 6.8k
-	engineConfiguration->vbattDividerCoeff = 10.2; // 5.835
+	//engineConfiguration->vbattDividerCoeff = 10.2; // 5.835
 
-	engineConfiguration->vbattAdcChannel = EFI_ADC_11;
+	engineConfiguration->vbattAdcChannel = EFI_ADC_7;
 
 }
 static void boardConfigOverrides() {
@@ -61,7 +61,7 @@ Gpio getWarningLedPin() {
 }
 void customBoardDefaultConfiguration() {
 	engineConfiguration->vbattDividerCoeff = 6.5f;
-	engineConfiguration->vbattAdcChannel = EFI_ADC_11;
+	engineConfiguration->vbattAdcChannel = EFI_ADC_7;
 	setIgnitionPins();
 	setInjectorPins();
 }
