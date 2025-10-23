@@ -3,4 +3,4 @@
 //
 
 #define SIGNATURE_HASH 57316958
-#define TS_SIGNATURE "rusEFI main.2025.10.22.agtechpro-h7.57316958"
+#define TS_SIGNATURE "rusEFI main.2025.10.23.agtechpro-h7.57316958"
